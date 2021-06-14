@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ffmpeg list codecs
+# key: ffmpeg
+# --
+ffmpeg -codecs

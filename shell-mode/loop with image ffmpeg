@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: loop with image ffmpeg 
+# key: 
+# --
+
+ffmpeg -i ${0:audio} -loop 1  -i ${1:video} -c:v libx264 -c:a aac -s ${3:size} -t 10 shrek_2.mp4

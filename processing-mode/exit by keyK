@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: exit by keyK 
+# key: k-exit
+# --
+void keyPressed(){
+     if (key == 'k'){
+     exit();
+     }
+}
