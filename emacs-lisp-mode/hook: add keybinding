@@ -1,0 +1,7 @@
+# key: 
+# name: hook: add keybinding
+# --
+(defun ${1:function} ())
+(global-set-key (kbd \"${2:kbd}\") ${3:function-to-bind}))
+
+(add-hook \'${4:mode} \'$1)

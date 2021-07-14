@@ -1,0 +1,5 @@
+# key: 
+# name: provide current buffer
+# --
+(provide '${1:`(file-name-base (buffer-name))`})
+
